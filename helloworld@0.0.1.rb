@@ -1,8 +1,8 @@
-class Helloworld2 < Formula
+class Helloworld < Formula
   desc "样例"
-  homepage "https://github.com/dvlpCI/homebrew-branch-json-file"
-  url "https://github.com/dvlpCI/homebrew-branch-json-file/archive/v0.0.6.tar.gz"
-  sha256 "9c5d1dbbba559f6cc2e69cd7c422929831960c2dee792542d3805d657b7003de"
+  homepage "https://github.com/dvlpCI/script-branch-json-file"
+  url "https://github.com/dvlpCI/script-branch-json-file/archive/0.0.1.tar.gz"
+  sha256 "70ba69716b6ae6c248ca6f189ae56efca80344021b1beb18daedafe2d8c7f7b5"
 
   def install
     # Install script to bin
