@@ -1,4 +1,4 @@
-class DemoTool < Formula
+class Helloworld < Formula
   desc "样例"
   homepage "https://github.com/dvlpCI/homebrew-branch-json-file"
   url "https://github.com/dvlpCI/homebrew-branch-json-file/archive/v0.0.2.tar.gz"
@@ -6,15 +6,15 @@ class DemoTool < Formula
 
   def install
     # Install script to bin
-    bin.install "yourscript.sh"
+    bin.install "helloworld.sh"
   end
 
   def uninstall
-    rm "#{bin}/my-shell.sh"
+    rm "#{bin}/helloworld.sh"
   end
 
   test do
     # Test your script
-    system "#{bin}/yourscript", "--version"
+    system "#{bin}/helloworld", "--version"
   end
 end
