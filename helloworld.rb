@@ -6,16 +6,18 @@ class Helloworld < Formula
 
   def install
     # Install script to bin
-    bin.install "helloworld.sh"
+    # bin.install "helloworld.sh"
+    bin.install "helloworld"
   end
 
-  def install2
-    # 将软件包安装到 /usr/local/Cellar 目录中
-    prefix.install Dir["*"]
-  end
+  # def install2
+  #   # 将软件包安装到 /usr/local/Cellar 目录中
+  #   prefix.install Dir["*"]
+  # end
 
   def uninstall
-    rm "#{bin}/helloworld.sh"
+    # rm "#{bin}/helloworld.sh"
+    rm "#{bin}/helloworld"
   end
 
   test do
