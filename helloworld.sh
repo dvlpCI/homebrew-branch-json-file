@@ -2,7 +2,7 @@
 
 echo "hello world"
 
-echo "hello world"
+echo "shasum -a 256 helloworld.sh"
 
 echo "hello world"
 
